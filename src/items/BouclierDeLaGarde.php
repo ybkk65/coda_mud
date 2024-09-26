@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Items;
+namespace Youns\CodaMud\Items;
 
 use Jugid\Staurie\Game\Item_Equippable;
 

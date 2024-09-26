@@ -1,9 +1,9 @@
 <?php
 
-namespace Src\Npcs;
+namespace Youns\CodaMud\Npcs;
 
-use Src\Items\BouclierDeLaGarde;
-use Src\Items\EpeeDeFer;
+use Youns\CodaMud\Items\EpeeDeFer;
+use Youns\CodaMud\Items\BouclierDeLaGarde;
 use Jugid\Staurie\Game\Npc;
 
 class Galdur extends Npc {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Src\Maps;
+namespace Youns\CodaMud\Maps;
 
 use Jugid\Staurie\Component\Map\Blueprint;
-use Jugid\Staurie\Game\Position;
-use Src\Items\BouclierDeLaGarde;
-use Src\Items\EpeeDeFer;
-use Src\Monsters\SerpentDesPrairies;
-use Src\Npcs\Galdur;
+use Jugid\Staurie\Game\Position\Position;
+use Youns\CodaMud\Items\BouclierDeLaGarde;
+use Youns\CodaMud\Items\EpeeDeFer;
+use Youns\CodaMud\Monsters\SerpentDesPrairies;
+use Youns\CodaMud\Npcs\Galdur;
 
 class PlaineExil01 extends Blueprint {
 

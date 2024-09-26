@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Monsters;
+namespace Youns\CodaMud\Monsters;
 
 use Jugid\Staurie\Game\Monster;
 

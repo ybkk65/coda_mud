@@ -28,7 +28,7 @@ $menu = $container->registerComponent(Menu::class);
 $menu->configuration([
     'text'=> 'Bienvenue dans The Teleport Incident !',
     'labels'=> [
-        'new_game' => 'Entrer dans le monde de Mushoku Tensei',
+        'new_game' => 'Entrer dans le monde fantastique et dangereux de Mushoku Tensei',
         'quit'=> 'Quitter le jeu',
     ]
 ]);
@@ -36,8 +36,8 @@ $menu->configuration([
 
 $map = $container->registerComponent(Map::class);
 $map->configuration([
-    'directory'=>__DIR__.'/maps',
-    'namespace'=>'Src\Maps', 
+    'directory'=>__DIR__.'/src/maps',
+    'namespace'=>'Youns\CodaMud\Maps', 
     'navigation'=>true,
     'map_enable'=>true,
     'compass_enable'=>true

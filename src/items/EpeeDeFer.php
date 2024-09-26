@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Items;
+namespace Youns\CodaMud\Items;
 
 use Jugid\Staurie\Game\Item_Equippable;
 
@@ -16,7 +16,7 @@ class EpeeDeFer extends Item_Equippable {
     }
 
     public function body_part(): string { 
-        return 'epee';
+        return 'hands';
     }
 
     public function statistics(): array{
