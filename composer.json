@@ -1,0 +1,17 @@
+{
+    "name": "youns/coda_mud",
+    "autoload": {
+        "psr-4": {
+            "Youns\\CodaMud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "youness",
+            "email": "youness.benakkaf@coda-student.school"
+        }
+    ],
+    "require": {
+        "jugid/staurie": "^1.1"
+    }
+}
