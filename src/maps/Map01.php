@@ -9,7 +9,7 @@ use Src\Items\EpeeDeFer;
 use Src\Monsters\SerpentDesPrairies;
 use Src\Npcs\Galdur;
 
-class Map01 extends Blueprint {
+class PlaineExil01 extends Blueprint {
 
     private Position $position;
 
@@ -19,11 +19,11 @@ class Map01 extends Blueprint {
     }
 
     public function name() : string {
-        return 'Plaine des Exilés';
+        return 'Plaine de l\'exil';
     }
 
     public function description() : string {
-        return 'La Plaine des Exils est une vaste étendue stérile, marquée par des cendres et des débris d\'anciennes batailles. Le ciel y est souvent obscurci par des nuages menaçants, et un vent glacial souffle à travers les ruines des anciennes forteresses. Autrefois un lieu de refuge, elle est maintenant hantée par des échos de désespoir et des créatures sauvages.';
+        return 'La Plaine de l\'exil est une vaste étendue stérile, marquée par des cendres et des débris d\'anciennes batailles. Le ciel y est souvent obscurci par des nuages menaçants, et un vent glacial souffle à travers les ruines des anciennes forteresses. Autrefois un lieu de refuge, elle est maintenant hantée par des échos de désespoir et des créatures sauvages.';
     }
 
     public function position() : Position {

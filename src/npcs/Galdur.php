@@ -4,9 +4,9 @@ namespace Src\Npcs;
 
 use Src\Items\BouclierDeLaGarde;
 use Src\Items\EpeeDeFer;
-use Src\Npcs;
+use Jugid\Staurie\Game\Npc;
 
-class Galdur extends Npcs {
+class Galdur extends Npc {
 
     public function name() : string {
         return 'Galdur';
