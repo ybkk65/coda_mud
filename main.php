@@ -18,6 +18,7 @@ $introduction = $container->registerComponent(Introduction::class);
 $introduction->configuration([
     'title'=> "Le continent demoniaque",
     'text' => "Chapitre 1 - L'incident de deplacement",
+    'scrolling_speed' => "15",
 ]);
 
-$staurie->run(); //LANCE LE JEU
+$staurie->run();
