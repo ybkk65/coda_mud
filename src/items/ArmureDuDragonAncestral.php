@@ -16,7 +16,7 @@ class ArmureDuDragonAncestral extends Item_Equippable {
     }
 
     public function body_part(): string { 
-        return 'armure';
+        return 'armor';
     }
 
     public function statistics(): array{

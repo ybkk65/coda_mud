@@ -16,7 +16,7 @@ class AnneauDeLImmortalité extends Item_Equippable {
     }
 
     public function body_part(): string { 
-        return 'anneau';
+        return 'ring';
     }
 
     public function statistics(): array{

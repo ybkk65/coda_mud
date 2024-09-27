@@ -15,7 +15,7 @@ class CuirasseDeBrume extends Item_Equippable {
     }
 
     public function body_part(): string { 
-        return 'torse';
+        return 'armor';
     }
 
     public function statistics(): array{

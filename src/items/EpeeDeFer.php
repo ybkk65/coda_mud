@@ -16,7 +16,7 @@ class EpeeDeFer extends Item_Equippable {
     }
 
     public function body_part(): string { 
-        return 'hands';
+        return 'hand';
     }
 
     public function statistics(): array{

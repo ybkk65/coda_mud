@@ -15,7 +15,7 @@ class BouclierRunique extends Item_Equippable {
     }
 
     public function body_part(): string { 
-        return 'bouclier';
+        return 'shield';
     }
 
     public function statistics(): array{
