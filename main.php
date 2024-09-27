@@ -46,14 +46,15 @@ $menu->configuration([
 $introduction = $container->registerComponent(Introduction::class);
 $introduction->configuration([
     'text'=>[
-        'Bienvenue dans The Teleport Incident',
-        'Vous allez découvrir l\'histoire de Kaelan, un jeune aventurier novice qui a été surpris par l\'incident de la téléportation, un tragique évènement magique qui a téléporté au quatres coins du monde beaucoup de personnes.',
-        'Un bon nombre d\'entre elles ont été téléportées sur le continent démoniaque, la terre des démons, un lieu hostile parsemé de monstres et de dangers en tout genres en dehors des villes de démons, seuls lieux où certaines races de démons cohabitent en paix avec les humains.',
-        'Rare sont les humains qui s\'en sont sortis vivants, et les plus malchanceux ont été réduits en escalavage par des démons perfides',
-        'Voici que Kaelan à son tour se voit téléporté sur ce continent impitoyable, et doit faire de son mieux pour espérer retrouver un jour les siens...'
+        "Bienvenue dans The Teleport Incident\n",
+        'Vous allez decouvrir l\'histoire de Kaelan, un jeune aventurier novice qui a ete surpris par l\'incident de la teleportation, un tragique evenement magique qui a teleporte au quatres coins du monde beaucoup de personnes.',
+        'Un bon nombre d\'entre elles ont ete teleportees sur le continent demoniaque, la terre des demons, un lieu hostile parseme de monstres et de dangers en tout genres en dehors des villes de demons, seuls lieux ou certaines races de demons cohabitent en paix avec les humains.',
+        'Rare sont les humains qui s\'en sont sortis vivants, et les plus malchanceux ont ete reduits en escalavage par des demons perfides',
+        'Voici que Kaelan a son tour se voit teleporte sur ce continent impitoyable, et doit faire de son mieux pour esperer retrouver un jour les siens...'
     ],
     'title'=>'Chapter 1 : La Plaine de l\'exil',
-    'scrolling'=>false
+    'scrolling'=>true,
+    'scrolling_speed'=>'10',
 ]);
 
 
