@@ -53,7 +53,7 @@ $introduction->configuration([
         'Voici que Kaelan à son tour se voit téléporté sur ce continent impitoyable, et doit faire de son mieux pour espérer retrouver un jour les siens...'
     ],
     'title'=>'Chapter 1 : La Plaine de l\'exil',
-    'scrolling'=>false
+    'scrolling'=>true
 ]);
 
 
