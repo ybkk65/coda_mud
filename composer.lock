@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "jugid/staurie",
-            "version": "1.1.3",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JuGid/Staurie.git",
-                "reference": "c54d980bf01c3f535774fb9ace4083df02807409"
+                "reference": "16669407fa9b3bc00a825203742ab4a0cc769fa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JuGid/Staurie/zipball/c54d980bf01c3f535774fb9ace4083df02807409",
-                "reference": "c54d980bf01c3f535774fb9ace4083df02807409",
+                "url": "https://api.github.com/repos/JuGid/Staurie/zipball/16669407fa9b3bc00a825203742ab4a0cc769fa1",
+                "reference": "16669407fa9b3bc00a825203742ab4a0cc769fa1",
                 "shasum": ""
             },
             "require": {
@@ -46,9 +46,9 @@
             "description": "Create your own story",
             "support": {
                 "issues": "https://github.com/JuGid/Staurie/issues",
-                "source": "https://github.com/JuGid/Staurie/tree/1.1.3"
+                "source": "https://github.com/JuGid/Staurie/tree/1.2.0"
             },
-            "time": "2024-09-27T09:27:24+00:00"
+            "time": "2024-09-27T10:18:53+00:00"
         },
         {
             "name": "symfony/finder",
